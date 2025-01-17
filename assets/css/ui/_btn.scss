@@ -1,0 +1,13 @@
+.btn {
+  padding: 16px 34px;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+  &-purple {
+    color: $color-white;
+    background-color: $color-purple;
+
+    &:hover {
+      background-color: #872bff81;
+    }
+  }
+}

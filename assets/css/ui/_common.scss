@@ -1,0 +1,17 @@
+.section {
+  &-top {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    font-weight: 700;
+    &__subtitle {
+      color: $color-pink;
+      font-size: 24px;
+      letter-spacing: 0.3rem;
+    }
+    &__title {
+      font-size: 44px;
+      color: $color-black;
+    }
+  }
+}

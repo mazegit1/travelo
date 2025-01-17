@@ -1,0 +1,20 @@
+.services{
+
+    &-top{
+     display: flex;
+     flex-direction: column;
+     gap: 14px;
+
+     &__subtitle{
+     color: $color-pink;
+     font-weight: 700;
+     font-size: 24px;
+     letter-spacing: 0.3rem;
+     }
+     &__title{
+     color: $color-black;
+     font-size: 44px;
+     }
+    }
+    
+}

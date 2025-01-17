@@ -1,0 +1,37 @@
+.header {
+  padding: 36px 0;
+
+  &-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__brand {
+      display: flex;
+      gap: 14px;
+      color: $color-black;
+      font-size: 24px;
+      font-weight: 700;
+      align-items: center;
+    }
+
+    &__links {
+      align-items: center;
+      display: flex;
+      list-style-type: none;
+      gap: 70px;
+
+      li {
+        color: $color-black;
+        text-decoration: none;
+        font-weight: 600;
+      }
+    }
+
+    &__actions {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+    }
+  }
+}

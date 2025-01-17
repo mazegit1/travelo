@@ -1,0 +1,10 @@
+.pink-blur {
+  height: 500px;
+  width: 500px;
+  background-color: $color-pink;
+  position: absolute;
+  top: -30%;
+  left: -30%;
+  z-index: -1;
+  filter: blur(500px);
+}

@@ -1,0 +1,111 @@
+.hero {
+  display: flex;
+  margin-top: 70px;
+  &-left {
+    width: 48%;
+  }
+  &-right {
+    width: 45%;
+  }
+
+  &-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 36px;
+    margin: 70px 0;
+
+    &__call {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 700;
+      background-color: white;
+      box-shadow: 0 4px 10px 0 rgba(140, 140, 140, 0.1),
+        0 18px 18px 0 rgba(140, 140, 140, 0.09);
+      color: $color-pink;
+      svg {
+        fill: $color-pink;
+        width: 24px;
+        height: 24px;
+        transform: scaleX(-100%);
+      }
+    }
+
+    &__title {
+      font-size: 70px;
+      font-weight: 700;
+
+      span {
+        color: $color-pink;
+      }
+    }
+
+    &__subtitle {
+      font-weight: 500;
+      font-size: 18px;
+      color: $color-gray;
+    }
+
+    &__actions {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      .btn {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 700;
+        height: 100%;
+        svg {
+          width: 20px;
+          height: 20px;
+          fill: $color-purple;
+        }
+
+        &.border {
+          border: 1px solid $color-purple;
+        }
+      }
+    }
+  }
+
+  &-right {
+    height: 595px;
+    position: relative;
+    .tl {
+      top: 15px;
+
+      position: absolute;
+    }
+    .tr {
+      top: 0;
+      right: 0;
+      position: absolute;
+    }
+    .bl {
+      bottom: 0;
+      left: 0;
+      position: absolute;
+    }
+    .br {
+      bottom: 75px;
+      right: 0;
+      position: absolute;
+    }
+    .pl {
+      position: absolute;
+      top: -20%;
+      left: -25%;
+      z-index: -1;
+    }
+    .pr {
+      position: absolute;
+      z-index: -1;
+      bottom: 20%;
+      right: -30%;
+    }
+  }
+}

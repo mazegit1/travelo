@@ -1,0 +1,15 @@
+.brands{
+    padding: 64px 0;
+    .swiper-wrapper{
+        align-items: flex-end;
+        gap: 30px;
+        transition: 2s ease;
+        .swiper-slide{
+           object-fit: contain !important;
+            height: 32px !important;
+        }
+        .important{
+            padding-bottom: 100px;
+        }
+    }
+}
